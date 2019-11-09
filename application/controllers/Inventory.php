@@ -17,7 +17,7 @@ class Inventory extends CI_Controller {
         $this->rebstb = $this->Rebstb_model;
 
 		if (!$this->session->has_userdata('username')) {
-			$this->session->set_flashdata('result_login','Anda belum login');
+			$this->session->set_flashdata('result_login','Anda belum Login!!');
 			redirect('login');
 		}
 	}
