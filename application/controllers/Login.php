@@ -5,7 +5,7 @@ class Login extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		//memuat model
+		//memuat model user
 		$this->load->model('Pengguna_model');
 		$this->model = $this->Pengguna_model;
 		//memuat helper URL
